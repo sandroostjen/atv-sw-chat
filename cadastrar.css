@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    
+    font-family: Helvetica;
+    font-size: 20px;
+}
+#paddddge {
+width: 80%;
+min-width: 900px;
+margin: 0 auto;
+border: 20px solid red;
+}
+
+header {
+display: flex;
+border-bottom: 4px solid black;
+
+justify-content: space-between;
+align-items: center;
+padding: 12px 20px;
+    }
+
+    header h2{
+        font: 12px;
+        letter-spacing: -1px;
+        color: blue;
+        font-family: Brush Script MT, Brush Script Std, cursive;
+    }
+    
+   
+.mensagem{
+
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    align-items: flex-start;
+}
+.mensagem .label{
+
+    font-weight: bold;
+    padding: 3px 2px;
+}
+.mensagem .texto{
+
+    border: 3px solid black;
+    border-radius: 6px;
+    letter-spacing: -1px;
+    font-family: 'Times New Roman';
+    background-color: rgb(234, 240, 240);
+    padding: 5px 15px;
+    text-align: left;
+}
+.mensagem-user{
+    align-items: flex-end;
+}
+.mensagem-user .texto{
+
+    background-color: rgb(209, 208, 208);
+    
+}
+
+.button:hover{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+}
+.button {
+    float: right;
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 6px;
+    
+    
+}
+
+.button:hover{
+    background-color: black;
+}
+.input {
+    overflow: hidden;
+    padding: 0 3px 0 0;
+    font-size: 20px;
+    
+}
+.input input {
+    width: 100%;
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
